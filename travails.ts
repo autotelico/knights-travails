@@ -2,12 +2,11 @@
     Define a board
 */ 
 
-const board = [];
-const boardSize = 8**2;
+const board: number[][][] = [];
 
 // Populate board
 for (let i = 0; i < 8; i++) {
-    const row = [];
+    const row: number[][] = [];
     for (let j = 0; j < 8; j++) {
         row.push([i, j]);
     }
@@ -25,8 +24,8 @@ console.log(board[2][1]);
  * @param {number[]} moveTo - Place where the knight will move to.
  * @returns {void}
  */
-function knightMoves(startPlace, moveTo) {
-
+function knightMoves(startPlace: number[], moveTo: number[]): void {
+    
 }
 
 
